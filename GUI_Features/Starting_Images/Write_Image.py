@@ -11,11 +11,11 @@ image_unchanged = cv2.imread(photo_path, -1)  # Put a negative one to load a pic
 
 # cv.imwrite(photo_path, image_in_color)  # This would save the changes make to the photo
 
-# Below is a program that loads an image in grayscale, displays it, saves the image is you press
-cv2.imshow("image", image_in_color)
+# Below is a program that loads an image in grayscale, displays it, saves the image if you press 's'
+cv2.imshow("image", image_in_BW)
 k = cv2.waitKey(0)
 if k == 27:  # Wait for ESC key to exit
     cv2.destroyAllWindows()
 elif k == ord("s"):  # Wait for 's' key to save and exit
-    cv2.imwrite(photo_path, image_in_color)
+    cv2.imwrite(photo_path, image_in_BW)
     cv2.destroyAllWindows()
