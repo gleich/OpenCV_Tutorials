@@ -8,3 +8,5 @@ photo_path = '/Users/matthewgleich/Desktop/First/CV2_Test_Images/applecv2testpho
 image_in_color = cv2.imread(photo_path, 1)  # Put a one to load picture in color
 image_in_BW = cv2.imread(photo_path, 0)  # Put a zero to load picture in black and white
 image_unchanged = cv2.imread(photo_path, -1)  # Put a negative one to load a picture unchanged
+cv2.imshow("image", image_in_BW)
+k = cv2.waitKey(0)
