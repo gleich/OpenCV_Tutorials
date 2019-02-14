@@ -3,7 +3,7 @@ Tutorials for the vision OpenCV library
 
 All of this code is from the free online corse for openCV at https://bit.ly/2AsRYtb
 
-#Table of contents:
+# Table of contents:
 
 1. **GUI Features:**
 * Getting started with images
