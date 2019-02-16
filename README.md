@@ -1,5 +1,5 @@
 # OpenCV-Tutorials
-Tutorials for the vision OpenCV library
+Tutorials for the Python OpenCV library
 
 All of this code is from the free online corse for openCV at https://bit.ly/2AsRYtb
 
