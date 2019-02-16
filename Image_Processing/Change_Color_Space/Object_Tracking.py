@@ -31,7 +31,7 @@ while(1):
     cv2.imshow("frame", frame)
     cv2.imshow("mask", mask)
     k = cv2.waitKey(5) & 0xFF
-    if k == 27:
+    if k == 27:  # Escape key
         break
 
 cv2.destroyAllWindows()
