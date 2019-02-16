@@ -15,5 +15,5 @@ All of this code is from the free online corse for openCV at https://bit.ly/2AsR
 * Changing Colorspaces
 * Geometric Transformations of images
 * Image Thresholding
-* Morphological Transformations
+* Morphological Transformations (Only Erode and Dilate)
 * Contours in OpenCV
