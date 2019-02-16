@@ -1,5 +1,5 @@
 """
-Created on Thur Feb 15 7:42:30PM 2019
+Created on Fri Feb 15 7:42:30PM 2019
 
 @author: Matt-Gleich
 
