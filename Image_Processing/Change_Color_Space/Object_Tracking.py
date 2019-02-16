@@ -8,9 +8,6 @@ How to convert BRG to other colorspaces such as HSV or Grayscale
 import numpy as np
 import cv2
 
-photo_path = '/Users/matthewgleich/Desktop/First/CV2_Test_Images/Solid_Red_Sized__25214.1507754519.jpg'
-img = cv2.imread(photo_path)
-
 cap = cv2.VideoCapture(0)
 
 while(1):
