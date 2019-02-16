@@ -3,7 +3,7 @@ Created on Fri Feb 15 8:19:21PM 2019
 
 @author: Matt-Gleich
 
-How to convert BRG to other colorspaces such as HSV or Grayscale
+To mask video. The video is coming in live from the webcam
 """
 import numpy as np
 import cv2
@@ -13,10 +13,10 @@ cap = cv2.VideoCapture(0)
 while(1):
 
     # Take each frame
-    frame = cap.read()
+    _, frame = cap.read()
 
     # Convert BGR to HSV
-    HSV_Values = cv2.cvtColor(cv2.UMat(frame), cv2.COLOR_BGR2HSV)
+    HSV_Values = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     # Define range of blue color in HSV
     lower_blue = np.array([110, 50, 50])
