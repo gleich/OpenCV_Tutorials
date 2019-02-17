@@ -17,3 +17,6 @@ All of this code is from the free online corse for openCV at https://bit.ly/2AsR
 * Image Thresholding
 * Morphological Transformations (Only Erode and Dilate)
 * Contours in OpenCV
+4. **Contours**
+* Contours: Getting started
+* Contour Features
