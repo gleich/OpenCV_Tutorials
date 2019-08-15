@@ -96,3 +96,7 @@ Below is a list of all the functions that we will be using.
 3. `cv2.rectangle()`
 4. `cv2.ellipse()`
 5. `cv2.putText()`
+
+### Drawing a Line
+
+In order to draw a line using
